@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "uralcraft:items/dragon_slayer_texture"
+  }
+}
