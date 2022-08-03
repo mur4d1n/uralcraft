@@ -2,6 +2,7 @@ package com.mur4d1n.uralcraft;
 
 import com.mojang.logging.LogUtils;
 import com.mur4d1n.uralcraft.init.ItemInit;
+import com.mur4d1n.uralcraft.util.ModSound;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -45,6 +46,9 @@ public class UralCraft
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
+
+        ModSound.SOUND_EVENTS.register(modEventBus);
+
         // Register the Deferred Register to the mod event bus so items get registered
         ItemInit.ITEMS.register(modEventBus);
 

@@ -3,8 +3,8 @@
 	"parent": "dragon_slayer",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "dragon_slayer_texture",
-		"particle": "dragon_slayer_texture"
+		"0": "uralcraft:item/dragon_slayer_texture",
+		"particle": "uralcraft:item/dragon_slayer_texture"
 	},
 	"elements": [
 		{

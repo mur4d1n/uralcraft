@@ -1,0 +1,10 @@
+{
+  "sport_glasses": {
+    "sounds": [
+      {
+        "name": "uralcraft:sport_glasses",
+        "stream": true
+      }
+    ]
+  }
+}
